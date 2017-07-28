@@ -1,0 +1,5 @@
+{
+	"name": "admin-auth",
+	"description": "Allows you to authenticate on oauthd with a single admin account.",
+	"type": "auth"
+}

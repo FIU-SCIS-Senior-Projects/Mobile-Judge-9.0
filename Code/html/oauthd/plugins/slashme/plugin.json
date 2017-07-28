@@ -1,0 +1,5 @@
+{
+	"name": "slashme",
+	"description": "Slashme allows you to retrieve unified user information with no effort.",
+	"main": "index.js"
+}

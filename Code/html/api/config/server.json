@@ -1,0 +1,18 @@
+{
+	"ip": "127.0.0.1",
+	"port": 8080,
+	"apiPrefix": "",
+	"registerRedirect": "/#register",
+	"resetRedirect": "/#passwordchange",
+	"crypt": {
+		"algorithm": "aes-256-ctr",
+		"secret": "outatime85-55-15",
+		"hashLength": 10,
+		"tokenExpiration": 86400
+	},
+	"sendmail": {
+		"path": "/usr/sbin/sendmail"
+	},
+	"statics": [
+	]
+}

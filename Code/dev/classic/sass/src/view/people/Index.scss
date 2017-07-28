@@ -1,0 +1,91 @@
+.allRecordsCls{
+    .x-grid-cell-inner{
+        padding:15px;
+        div{
+            white-space: normal;
+        }
+        .resultsTitleCls{
+            font-size:14px;
+            color: #333;
+        }
+        .resultsUrlCls a{
+            color:$base-color;
+            text-decoration:none;
+            &:hover{
+                text-decoration:underline;
+            }
+        }
+        .imageRowCls img{
+            margin-right:15px;
+        }
+    }
+}
+.user-grid {
+	.x-grid-td {
+		vertical-align: middle;
+	}
+	.x-grid-body {
+		border-width: 1px;
+	}
+
+	.x-toolbar .x-btn-inner-soft-blue-small {
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.fa-cloud-upload, .fa-cloud-download {
+		background: none !important;
+	}
+
+	.x-anchor-form-item {
+		margin-bottom: 0;
+	}
+
+	.x-form-text-field-body-default {
+		min-width: 0 !important;
+	}
+
+	a.location {
+		line-height: 32px;
+		color: $base-color;
+		text-decoration: none;
+		margin-left: 5px;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	/*$color-blue: #167abc;
+$color-soft-cyan: #03b4d5;
+$color-soft-blue: #2eadf5;
+$color-soft-green: #9cc96b;
+$color-soft-orange: #ffc107;
+$color-soft-red: #e44959;
+$color-soft-purple: #925e8b;
+$color-gray: #949495;
+$color-green: #16b603;
+$grid-item-ban-btn-color: #ffc000;*/
+
+	.grading {
+		.x-action-col-icon {
+			font-size: 25px !important;
+			background: none;
+
+			&.fa-edit {
+				color: $color-blue;
+			}
+
+			&.fa-check {
+				color: $color-green;
+			}
+		}
+	}
+}
+
+img.profilePic{
+	@include border-radius($circle-border-radius);
+}
+
+.x-action-col-icon {
+	font-size: 13px !important;
+}

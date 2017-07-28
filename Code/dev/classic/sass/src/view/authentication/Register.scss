@@ -1,0 +1,39 @@
+.search-user-item {
+	overflow: hidden;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+
+	&.selected {
+		background-color: #ffefbb;
+	}
+
+	&.x-view-item-focused {
+		outline: none !important;
+	}
+}
+
+.search-user-title {
+	font-weight: 600;
+	line-height: 25px;
+}
+
+.search-user-email {
+	margin-bottom: 5px;
+}
+
+.search-user-image {
+	float: left;
+
+	> img {
+		border: 2px solid #ddd;
+	}
+}
+
+.search-user-content {
+	margin-left: 70px;
+
+	&:after {
+		content: " ";
+		clear: both;
+	}
+}

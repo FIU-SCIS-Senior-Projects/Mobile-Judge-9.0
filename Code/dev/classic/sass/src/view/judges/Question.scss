@@ -1,0 +1,20 @@
+.questionWizard {
+	.x-toolbar-text {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	.search-user-item {
+		border-top: 1px solid #ddd;
+	}
+
+	a.location {
+		line-height: 32px;
+		color: $base-color;
+		text-decoration: none;
+		margin-left: 5px;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

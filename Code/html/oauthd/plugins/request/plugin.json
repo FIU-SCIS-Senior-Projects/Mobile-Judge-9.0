@@ -1,0 +1,4 @@
+{
+	"name": "request",
+	"description": "Request allows you to perform API calls through oauthd easily."
+}

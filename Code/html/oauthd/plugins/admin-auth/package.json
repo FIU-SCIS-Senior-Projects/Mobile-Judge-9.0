@@ -1,0 +1,22 @@
+{
+  "name": "me",
+  "version": "1.0.1",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "crypto": "0.0.3",
+    "restify": "^3.0.3",
+    "restify-oauth2-oauthd": "^4.0.3-oauthd",
+    "sugar": "^1.4.1"
+  }
+}

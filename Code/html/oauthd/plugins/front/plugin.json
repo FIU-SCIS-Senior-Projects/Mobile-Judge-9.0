@@ -1,0 +1,6 @@
+{
+	"name": "front",
+	"description": "Provides you with an interface to manage your oauthd instance",
+	"main": "index.js",
+	"type": "global-interface"
+}

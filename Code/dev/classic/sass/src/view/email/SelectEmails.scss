@@ -1,0 +1,71 @@
+$grid-row-cell-focus-border-width : 0px;
+
+.selectemail {
+	.x-view-item-focused {
+		outline: none !important;
+	}
+
+	table {
+		width: 100%;
+		max-width: 100%;
+		border-spacing: 0;
+		border-collapse: collapse;
+		border: 1px solid #e9e9e9;
+
+		thead {
+			th {
+				border: 1px solid #e9e9e9;
+				padding: 8px;
+				line-height: 1.42857143;
+				vertical-align: middle;
+			}
+		}
+
+		tbody {
+			td {
+				text-align: center;
+				border: 1px solid #e9e9e9;
+				padding: 8px;
+				line-height: 1.42857143;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	input[type="checkbox"] {
+		margin-right: 4px;
+	}
+}
+
+.stateSelector button {
+	background-color: #fff;
+	border-style: solid;
+	border-color: #1565c0;
+	border-width: 1px 0 1px 1px;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	width: 45px;
+
+	&.x-view-item-focused {
+		outline: none !important;
+	}
+
+	&.selected {
+		background-color: #35baf6;
+		font-weight: bold;
+		color: #fff;
+	}
+
+	&:first-of-type {
+		border-radius: 4px 0 0 4px;
+	}
+
+	&:last-of-type {
+		border-radius: 0 4px 4px 0;
+		border-width: 1px;
+		width: 46px;
+	}
+}

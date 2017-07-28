@@ -1,0 +1,124 @@
+.x-item-selected > .inbox-item {
+    background-color: $list-item-selected-background-color;
+}
+
+.email-list .x-innerhtml {
+	padding: 0 !important;
+}
+
+.email-compose {
+	.rounded {
+		border-radius: 5px;
+		border: 1px solid #d0d0d0;
+		background-color: #fff;
+		padding: 0.625em 0.4em;
+	}
+
+	.bodyTemplate {
+		.x-innerhtml {
+			//width: 300px;
+			width: 100%;
+
+			.bodyWrapper {
+				width: 100%;
+
+				iframe {
+					width: 100%;
+
+					-webkit-transform-origin: 0 0;
+					//-webkit-transform: scale(0.50);
+				}
+			}
+		}
+	}
+
+	.x-field-select {
+		input[type="text"] {
+			text-overflow: ellipsis;
+			padding-right: 25px
+		}
+	}
+}
+
+.x-picker-bar{
+	background: rgba(6, 6, 6, 0.5);
+}
+
+.inbox-item {
+    padding: 20px;
+    /*border-bottom: 1px solid $border-color;*/
+    background-color: #fff;
+    overflow: auto; // ensure the box expands to include the floated items
+}
+
+.inbox-inner-row:after {
+    content: " ";
+    clear: both; // clear the floated items in the row
+}
+
+.inbox-from {
+	width: calc(100vw - 8em);
+}
+
+.inbox-from,
+.inbox-summary {
+    float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.inbox-date,
+.inbox-favorite {
+    float: right;
+}
+
+.inbox-favorite-icon {
+    color: #facc6e;
+}
+
+.inbox-attachment {
+    padding-right: 10px;
+}
+
+.inbox-summary {
+    width: calc(100vw - 2em);
+}
+
+.email-controls {
+    width: 30%;
+    min-width: 180px;
+    max-width: 240px;
+}
+
+.email-controls-box {
+    margin: 0 20px 20px 0;
+}
+
+//-------------------------------
+
+.email-friend {
+    overflow: auto;
+    padding: 20px;
+}
+
+.email-friend:after {
+    content: " ";
+    clear: both;
+}
+
+.email-friend-name {
+    float: left;
+}
+
+.email-friend-status {
+    float: right;
+}
+
+.online > .email-friend-status {
+    color: green;
+}
+
+.offline > .email-friend-status {
+    color: #ddd;
+}

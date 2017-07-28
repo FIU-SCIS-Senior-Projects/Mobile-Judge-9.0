@@ -1,0 +1,25 @@
+{
+	"development": {
+		"username": "judge",
+		"password": "Judge2013",
+		"database": "onlinejudges7",
+		"host": "127.0.0.1",
+		"dialect": "mysql",
+		"logging": false
+	},
+	"test": {
+		"username": "judge",
+		"password": "Judge2013",
+		"database": "onlinejudges7",
+		"host": "127.0.0.1",
+		"dialect": "mysql"
+	},
+	"production": {
+		"username": "judge",
+		"password": "Judge2013",
+		"database": "onlinejudges7",
+		"host": "127.0.0.1",
+		"dialect": "mysql",
+		"logging": false
+	}
+}

@@ -1,0 +1,42 @@
+.term-editor {
+	.x-toolbar {
+		.x-btn-inner {
+			font-weight: bold;
+		}
+	}
+
+	.groupFieldContainer {
+		border-top: 1px solid $base-border-color;
+		margin-top: 10px;
+
+		label.x-fa {
+			span {
+				display: inline-block;
+				font-size: 14px;
+				font-weight: 600;
+				color: #333;
+			}
+
+			&:before {
+				font-size: 16px;
+				font-weight: normal;
+				color: $base-color;
+				margin-right: 5px;
+			}
+		}
+
+		.x-form-item-body {
+			padding-left: 20px;
+		}
+	}
+
+	.dateFieldContainer {
+		.x-form-item-body {
+			padding-left: 10px;
+		}
+
+		.x-btn-inner {
+			font-weight: bold;
+		}
+	}
+}

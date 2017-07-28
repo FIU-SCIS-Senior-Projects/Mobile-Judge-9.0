@@ -1,0 +1,147 @@
+.auth-dialog {
+	.auth-profile-wrap {
+		background: $base-color;
+		color: $lightest-color;
+		line-height: 24px;
+		.user-name-text {
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.user-post-text {
+			font-size: 14px;
+		}
+		.auth-profile-img {
+			@include border-radius($circle-border-radius);
+		}
+	}
+
+	input[draggable="true"], input[type="password"] {
+		-webkit-user-select: text !important;
+	}
+
+	.register-page-back-button,
+	.register-page-back-button .x-frame-mc {
+		background-color: $lightest-color;
+		border: none;
+		padding: 5px 0 0 0;
+		.x-btn-inner-default-small {
+			padding: 0;
+			height: 20px;
+			color: $base-color;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		&.x-btn-pressed.x-btn-default-small {
+			background-color: transparent;
+		}
+	}
+	.trigger-glyph-noop {
+		cursor: default;
+	}
+	.x-form-trigger {
+		text-align: right;
+		width: 50px;
+	}
+	.password-trigger,
+	.auth-email-trigger,
+	.auth-password-trigger,
+	.auth-envelope-trigger,
+	.auth-title-trigger,
+	.auth-affiliation-trigger {
+		&:before {
+			top: 10px;
+			left: -18px;
+			position: relative;
+			color: $dialog-trigger-color;
+			font-size: 30px;
+		}
+
+		&.password-trigger:before,
+		&.auth-password-trigger:before {
+			content: "\f023";
+		}
+		&.auth-email-trigger:before {
+			content: "\f007";
+		}
+		&.auth-envelope-trigger:before {
+			content: "\f0e0";
+		}
+		&.auth-title-trigger:before {
+			content: "\f19c";
+		}
+		&.auth-affiliation-trigger:before {
+			content: "\f0c0";
+		}
+	}
+
+	.seperator {
+		text-align: center;
+		color: $create-account-background-color;
+		font-family: "Open Sans";
+		display: inline-block;
+		background: $lightest-color;
+		position: relative;
+		z-index: 1;
+		padding: 0 8px;
+	}
+	.link-forgot-password {
+		line-height: 32px;
+		color: $base-color;
+		text-decoration: none;
+		margin-left: 5px;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.x-btn {
+		.x-btn-icon-el {
+			&:before {
+				right: 10px;
+				font-size: 24px;
+				position: absolute;
+			}
+		}
+	}
+
+	.x-btn-fiu-large, .x-btn.x-btn-pressed.x-btn-fiu-large {
+		background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="221.7" height="102.8"><path d="M1.65,1.65 h78.35 v31 h-27.3 v-6.5 h-16.4 v15.2 h22.75 v23.2 h-22.7 v12.5 h6.7 v23.9 h-41.5 v-23.9 h7.1 v-51 h-7.1z M86.9,1.65 h41.5 v24.3 h-6.8 v51 h6.8 v23.9 h-41.5 v-23.9 h6.9 v-51 h-6.9z M135,1.65 h38.5 v24.3 h-4.2 v50 l1,1 h14.2 l1,-1 v-50 h-4.2 v-24.3 h38.5 v24.3 h-6.9 v56.5 l-17.8,18.5 h-35.2 l-17.8,-18.5 v-56.5 h-7.1z" fill="#fff" stroke="#c5960c" stroke-width="3.3"/></svg>') !important;
+		background-repeat: no-repeat;
+		background-size: 50px 50px;
+		background-position: center center;
+	}
+
+	.auth-login-button .x-fa,
+	.auth-resetpassword-button .x-fa {
+		font-size: 32px;
+		right: 11px;
+		top: 10px;
+		line-height: 16px;
+	}
+	.auth-create-account-button .x-fa {
+		color: $lightest-color;
+		right: 24px;
+		top: 10px;
+	}
+
+	.outer-div {
+		width: 100%;
+		text-align: center;
+		&:after {
+			content: " ";
+			width: 100%;
+			height: 1px;
+			background-color: $blank-page-color;
+			position: absolute;
+			left: 0;
+			top: 9px;
+		}
+	}
+
+	.lock-screen-password-textbox{
+		.x-form-text-default {
+			padding: 15px;
+		}
+	}
+}

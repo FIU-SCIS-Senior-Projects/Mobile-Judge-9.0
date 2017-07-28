@@ -1,0 +1,58 @@
+.studentSelector{
+	.search-user-email {
+		margin-bottom: 0;
+	}
+
+	.search-user-icon {
+		float: right;
+		font-size: 40px !important;
+		padding-top: 10px;
+
+		&.x-fa {
+			&.fa-edit:before {
+				color: $color-blue;
+			}
+
+			&.fa-check:before {
+				color: $color-green;
+			}
+		}
+
+		&.disabled {
+			filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+			opacity: 0.3;
+		}
+	}
+}
+
+.questionWizard {
+	.x-toolbar-text {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	.x-panel-title-text {
+		white-space: normal;
+		font-size: 18px;
+	}
+
+	.search-user-email {
+		margin-bottom: 0;
+	}
+
+	.search-user-date {
+		margin-bottom: 5px;
+	}
+
+	.search-user-item {
+		padding-top: 5px;
+		/*border-top: 1px solid #ddd;*/
+		border-bottom: 1px solid #ddd;
+	}
+
+	.question {
+		text-align: center;
+		font-size: 16px;
+		font-weight: 600;
+	}
+}

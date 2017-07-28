@@ -1,0 +1,88 @@
+
+
+
+html, body {
+	height: 100%;
+	background: none;
+}
+
+body > div {
+	height: 100%;
+}
+
+html{
+	height: ~"calc(100% - 3px)";
+	background: rgba(0,0,0,0.1);
+}
+
+.ng-hide {
+	display: none;
+}
+
+._homepage {
+	text-align: center;
+	.usage {
+		
+		strong {
+			font-size: 1.5em;
+		}
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.title-parent {
+	margin-top: 20px;
+	.title {
+		&.one {
+			font-size: 1.9em;	
+		}
+		
+		&.two {
+			font-size: 1.5em;	
+		}
+
+		&.three {
+			font-size: 1.2em;	
+		}
+		
+		
+	}	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+
+@import "spinner";
+@import "homepage";
+@import "menu-panel";
+@import "dashboard";
+@import "apps/show";
+@import "apps/apps";
+@import "apps/keyset";
+@import "providers-list";
+@import "login";
+@import "help";
+
+.content {
+	height: 100%;
+	margin-left: 250px;
+
+	> div {
+		height: 100%;
+	}
+}
+
+
+
+@import "plugins/plugins";
