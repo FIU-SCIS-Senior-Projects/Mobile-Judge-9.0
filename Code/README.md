@@ -1,5 +1,4 @@
 # Mobile-Judge-9.0
-Mobile Judge 9.0
 
 To Clone Source Code:
 1. Go to the github page for the project, and find the "Clone or Download" button on the right side of the page.
