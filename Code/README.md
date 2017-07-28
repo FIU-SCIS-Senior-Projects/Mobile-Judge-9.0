@@ -11,7 +11,7 @@ You may be asked to provide a username and password, in this case use your GitHu
  
 To Develop:
 1. Open the dev folder in a coding ide such as WebStorm
-2. Compile the code by using Sencha CMD and going to the app folder in dev
+2. Compile the code by using Sencha CMD and going to the app folder in dev after each change
 3. Depending on what build was produced such as production, go to the build folder and open the appropriate build
 4. Copy the contents to the html folder that should be placed in nginx folder on the server
 
