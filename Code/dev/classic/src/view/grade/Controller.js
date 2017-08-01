@@ -790,13 +790,13 @@ Ext.define('MobileJudge.view.grade.Controller', {
     onExportGradeReport: function () {
         var linkURL = '/api/views_table?count=999';
 
-        if(document.getElementById('AcceptedGrades').className == 'selected' ){
+        if(document.getElementById('Accepted').className == 'selected' ){
             linkURL = linkURL + '&filterStatus=PAR&filterStatus=PA&filterStatus=AR&filterStatus=A';
         }
-        if(document.getElementById('PendingGrades').className == 'selected' ){
+        if(document.getElementById('Pending').className == 'selected' ){
             linkURL = linkURL + '&filterStatus=PAR&filterStatus=PA&filterStatus=PR&filterStatus=P';
         }
-        if(document.getElementById('RejectedGrades').className == 'selected' ){
+        if(document.getElementById('Rejected').className == 'selected' ){
             linkURL = linkURL + '&filterStatus=PAR&filterStatus=PR&filterStatus=AR&filterStatus=R';
         }
         if(linkURL == '/api/views_table?count=999'){
