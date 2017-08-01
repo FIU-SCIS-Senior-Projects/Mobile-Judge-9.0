@@ -41,9 +41,9 @@ Ext.define('MobileJudge.view.grade.Students', {
                     },
                     tpl: [
                         '<tpl>',
-                        '<button type="button" title="AcceptedGrades" id="Accepted">AC</button>',
-                        '<button type="button" title="PendingGrades"  id="Pending">PE</button>',
-                        '<button type="button" title="RejectedGrades" id="Rejected">RJ</button>',
+                        '<button type="button" title="AcceptedGrades" id="AcceptedGrades">AC</button>',
+                        '<button type="button" title="PendingGrades"  id="PendingGrades">PE</button>',
+                        '<button type="button" title="RejectedGrades" id="RejectedGrades">RJ</button>',
                         '</tpl>'
                     ],
                     bind: {
